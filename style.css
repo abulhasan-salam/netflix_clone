@@ -1,0 +1,204 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container
+{
+    background-image: url(xx-1140x570.png);
+    /* border: 1px solid; */
+    background-color: rgba(0, 0, 0, 0.7);
+    width:1280px;
+    height:1000px;
+    padding: 0px;
+    margin-left: 0px;
+    background-image: fixed;
+    background-blend-mode:darken;
+
+    
+    
+}
+.header
+{
+    /* border: #333 solid; */
+    margin-left: 15px;
+}
+.loginbox
+{
+    width:350px;
+    background-color: azure;
+    height: auto;
+    min-height: 515px;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+
+}
+.loginbox h1{
+    color: aliceblue;
+    padding-left: 55px;
+    padding-top: 45px;
+    font-family:Helvetica, sans-serif;
+    font-size: 24px;
+    margin:0 0 15px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+
+}
+.username
+{
+    padding: 16px 50px 0px;
+}
+.password
+{
+    padding-left: 55px;
+    padding-top: 15px;
+}
+.username input
+{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+    border-radius: 4px;
+    border: #333;
+    color: aliceblue;
+
+}
+.username ::placeholder
+{
+    font-size:small;
+}
+.password input
+{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #333;
+    border-radius: 4px;
+    border: #333;
+    color: aliceblue;
+    margin-left:-5px;
+}
+.password ::placeholder
+{
+    font-size:small;
+}
+.btn
+{
+    background-color: red;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding:10px 103px;
+    text-align: center;
+    border: red;
+    border-radius: 4px;
+    font-family:Helvetica, sans-serif;
+    color:white;
+    font-size: small;
+    font-weight: 500px;
+}
+.chk 
+{
+   display:block;
+   color: #b3b3b3;
+   padding: 10px 0px 0px 50px;
+   font-size: small;
+   /* border: #b3b3b3 solid; */
+}
+.chk p
+{
+    /* border: red solid ; */
+    width: 60px;
+    margin-left:185px;
+    margin-top: -15px;
+
+}
+.chk p a{
+    text-decoration: none;
+    /* font-family:Helvetica, sans-serif; */
+    /* font-size: small; */
+    color: #b3b3b3;
+}
+.chk :hover
+{
+    text-decoration: underline;
+}
+.signup
+{
+    color: #737373;
+    padding-top:30px;
+    padding-left: 25px;
+    font-family:Helvetica, sans-serif;
+    font-size:14px;
+}
+.signup a
+{
+   text-decoration: none;
+   color: white;
+}
+.signup a:hover
+{
+    text-decoration: underline;
+}
+.policy
+{
+    color: #737373;
+    font-size: 12px;
+    font-family:Helvetica, sans-serif;
+    /* border: red solid ; */
+    width: 250px;
+    margin: auto;
+}
+.footer
+{
+    width: 1280px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.644);
+    /* border: red solid; */
+    margin-top: 100px;
+    margin-bottom: 0px;
+    /* padding-top: 0.2px; */
+
+}
+.footer p
+{
+    color:#737373;
+    font-family: Helvetica, sans-serif;
+    /* border: red solid; */
+    padding: 20px;
+    margin-left: 200px;
+    width: 400px;
+    margin-top: 50px;
+}
+.footer p a
+{
+  text-decoration: none;
+  color: #737373;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+}
+.footer ul li
+{
+    display: inline-block;
+    color:#737373;
+    font-family:Helvetica, sans-serif;
+    /* border: red solid; */
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-left:100px;
+    
+
+}
+.footer ul{
+    /* border: red solid; */
+    margin-left:75px ;
+}
+
+.copyrights
+{
+    color: white;;
+}

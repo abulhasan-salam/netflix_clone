@@ -1,0 +1,351 @@
+body
+{
+    margin: 0px 0px 0px 0px;
+    padding:0px 50px 0px 70px;
+    background-color: rgb(7, 15, 35);
+}
+.header
+{
+    padding-left: 15px;
+    /* border:rgb(254, 0, 0) solid 1px; */
+    width:200px;
+    height: 100px;
+}
+.container
+{
+    
+    width:1280px;
+    height:1000px;
+    padding: 0px;
+    margin-left: 0px;
+    background-image: fixed;
+    background-blend-mode:darken;
+}
+.language
+{
+    /* border: red solid; */
+    margin-left:520px;
+    padding: 0px;
+    margin-top: -60px;
+}
+.language select
+{
+   
+   padding:4px 10px ;
+   margin-left: 350px;
+   border: solid rgb(255, 255, 255) ;
+   width:100px;
+   background: 0%;
+   color: white;
+   border-radius: 4px;
+}
+.signout
+{
+    /* border: red solid; */
+    width: 80px;
+    margin-left: 980px;
+    margin-top: -27px;
+}
+.signout button
+{
+    background-color: red;
+    border: red ;
+    padding: 6px 8px;
+    color: white;
+    border-radius: 4px;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+}
+.mainform img
+{
+    /* border: red solid 1px; */
+    margin-top: 0px ;
+    border-radius: 20px;
+    width:1070px;
+    height: 500px;
+    opacity: .35;
+    box-sizing: border-box;
+    background-blend-mode: darken;
+}
+.overlay
+{
+    /* border: red solid 1px; */
+    margin-top: 35px ;
+    border-radius: 20px;
+    width:1070px;
+    height: 500px;
+    opacity: 1;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(255, 4, 4, 0.481) 100%, rgba(0, 213, 255, 0) 100%);
+    
+}
+.context h1
+{
+    color: white;
+    /* border: solid red 1px; */
+    width: 500px;
+    font-size:52px;
+    line-height: 1.3em;
+    font-family:sans-serif;
+    font-weight:bolder;
+    margin-top: -390px;
+    margin-left: 100px;
+    position: relative;
+    letter-spacing: 0px !important;
+}
+.context p
+{
+    color: white;
+    position: relative;
+    margin-left: 110px;
+    margin-top:-30px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.context button
+{
+    position: relative;
+    margin-left: 110px;
+    padding: 15px 70px;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    color:white;
+    font-weight: bolder;
+    background-color: red;
+    border: red;
+
+}
+.context button:hover
+{
+   background-color:rgba(0, 0, 0, 0.588);
+}
+.container2
+{
+    /* border: red solid; */
+    width:1070px;
+    height: 1560px;
+    margin: 0%;
+    padding: 0%;
+    margin-top: -450px;
+    background: rgb(0,0,3);
+    background: linear-gradient(-200deg, rgba(0, 0, 3, 0) 10%, rgba(113, 26, 26, 0.455) 99%); 
+    border-radius: 20px;
+    color: white;
+
+}
+.container2 img
+{
+    width:470px;
+    padding-left: 550px;
+
+}
+.container2 h1
+{
+    font-family:Tahoma, sans-serif;
+    font-size: 40px;
+    /* border: black solid ; */
+    width:500px;
+    margin-top: -250px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    padding: 8px;
+}
+.container2 p
+{
+    width:450px;
+    margin-left:100px;
+    margin-top: 0px;
+    font-family:sans-serif;
+}
+hr
+{
+    padding-top: 5px;
+    border-radius: 10px;
+    background-color: #73737347;
+    border-color: #73737347;
+    width: 890px;
+    margin-top: 160px;
+}
+.container2 .img2
+{
+    width:470px;
+    padding-left: 0;
+    padding-right: 0px;
+    /* border: red solid; */
+    margin-left: 70px;
+    margin-top: 5px;
+    
+
+}
+.container2 .lefth1
+{
+    font-family:Tahoma, sans-serif;
+    font-size: 40px;
+    /* border: black solid ; */
+    width:450px;
+    margin-top: -250px;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    padding: 8px;
+}
+.container2 .leftp
+{
+    width:400px;
+    margin-left:560px;
+    margin-top: 0px;
+    font-family:sans-serif;
+}
+.faq
+{
+    /* font-weight: 1500; */
+    color: white;
+    font-family:Helvetica, sans-serif;
+    /* border: red solid 2px; */
+    width:550px;
+    margin-top: 50px;
+    margin-left:80px;
+
+}
+.faq button
+{
+    margin-bottom: 10px;
+    width:900px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: left;
+    padding-left: 24px;
+    font-size: 22px;
+    background-color: rgb(27, 27, 88);
+    border:rgb(27, 27, 88) ;
+    color: aliceblue;
+    font-family:Helvetica, sans-serif;
+    position: relative;
+}
+.plus
+{
+    position: absolute;
+    font-size: 55px;
+    width: 50px;
+    /* border: red solid; */
+    text-align: center;
+    margin-top: -79px;
+    margin-left: 830px;
+}
+.faq button:hover
+{
+   background: linear-gradient(-180deg,rgba(255, 255, 255, 0.093)
+   , rgb(27, 27, 88));
+}
+.start p
+
+{
+    color: white;
+    /* border: red solid 1px; */
+    width:600px;
+    font-family:Helvetica, sans-serif;
+    margin-left:80px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.startupform
+{
+    width:550px;
+    /* border: red solid; */
+    height: 50px;
+    margin-top:0px;
+    margin-left: 80px;
+}
+input
+{
+    padding: 12px 130px 12px 15px;
+    background-color: #29282892;
+    border: #eeeaea solid 0.5px;
+    border-radius: 4px;
+}
+.startupform button
+{
+    /* border: red solid; */
+    padding: 10px 50px 12px 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: red;
+    border: red;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 3px;
+
+}
+.footer
+{
+    width: 1280px;
+    height: 270px;
+    /* background-color: rgba(0, 0, 0, 0.644); */
+    /* border: red solid; */
+    margin-top: 100px;
+    margin-bottom: 0px;
+    /* padding-top: 0.2px; */
+
+}
+.footer p
+{
+    color:#b3b3b3;
+    font-family: Helvetica, sans-serif;
+    /* border: red solid; */
+    padding: 10px;
+    margin-left: 70px;
+    width: 400px;
+    margin-top: 50px;
+}
+.footer p a
+{
+  text-decoration: underline;
+  color: #b3b3b3;
+
+}
+.footer a:hover
+{
+    text-decoration: underline;
+}
+.footer ul li
+{
+    display: inline-block;
+    color:#b3b3b3;
+    font-family:Helvetica, sans-serif;
+    /* border: red solid; */
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 12px;
+    margin-left:50px;
+    text-decoration: underline;
+    
+
+}
+.footer ul{
+    /* border: red solid; */
+    margin-left:30px ;
+    padding-left:0px;
+    width: 990px;
+}
+.copy
+{
+    font-family:Helvetica, sans-serif;
+    color: #b3b3b3;
+    font-size: 12px;
+    /* border:red solid; */
+    margin-left:80px;
+    margin-top:-80px;
+    padding-bottom: 100px;
+    width:300px;
+
+}
+
+
+
+
+
